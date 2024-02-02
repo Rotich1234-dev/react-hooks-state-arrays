@@ -39,10 +39,10 @@ function SpicyFoodList() {
           onChange={(e) => setFilterBy(e.target.value)}
         >
           <option value="All">All</option>
-          {/* Add other cuisine options based on your data */}
+          
           <option value="Mexican">Mexican</option>
           <option value="Indian">Indian</option>
-          {/* Add more options as needed */}
+         
         </select>
       </label>
       <ul>{foodList}</ul>
